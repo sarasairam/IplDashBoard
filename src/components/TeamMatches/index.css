@@ -1,0 +1,69 @@
+.rcb {
+  background-image: linear-gradient(to bottom, #a4261d, #1e293b);
+  height: auto;
+}
+.kkr {
+  background-image: linear-gradient(to bottom, #5755a7, #1e293b);
+  height: auto;
+}
+.kxp {
+  background-image: linear-gradient(to bottom, #d91c1f, #1e293b);
+  height: auto;
+}
+.csk {
+  background-image: linear-gradient(to bottom, #f7db00, #1e293b);
+  height: auto;
+}
+.rr {
+  background-image: linear-gradient(to bottom, #da237b, #1e293b);
+  height: auto;
+}
+.mi {
+  background-image: linear-gradient(to bottom, #13418b, #1e293b);
+  height: auto;
+}
+.srh {
+  background-image: linear-gradient(to bottom, #f26d22, #1e293b);
+  height: auto;
+}
+.dc {
+  background-image: linear-gradient(to bottom, #13418b, #1e293b);
+  height: auto;
+}
+
+.selected-team-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 26px;
+}
+
+.loader {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 50vh;
+}
+.match-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+@media (max-width: 767px) {
+  .banner-img {
+    height: 20vh;
+  }
+}
+.button-back {
+  border: 0;
+  padding: 10px;
+  background-color: #54e695;
+  border-radius: 10px;
+}

@@ -1,0 +1,19 @@
+.competing-team-logo {
+  height: 100px;
+}
+.latest-match-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 16px;
+  width: 120vh;
+  height: 40vh;
+  color: #ffffff;
+  background-color: #1e293b;
+  border-radius: 12px;
+}
+.heading {
+  color: #ffffff;
+  font-family: Roboto;
+  padding-top: 26px;
+}

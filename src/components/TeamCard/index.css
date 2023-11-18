@@ -1,0 +1,30 @@
+.team-card-img {
+  height: 15vh;
+}
+.team-card-card {
+  list-style-type: none;
+  width: 50vh;
+  height: 20vh;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.link-list-card {
+  border: 2px solid #475569;
+  background-color: #ffffff33;
+  border-radius: 12px;
+  text-decoration: none;
+  margin: 16px;
+}
+.team-name {
+  font-family: Bree Serif;
+  color: #ffffff;
+  font-size: large;
+}
+
+@media (max-width: 767px) {
+  .team-card-card {
+    width: 40vh;
+  }
+}

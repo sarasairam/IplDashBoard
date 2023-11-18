@@ -1,0 +1,24 @@
+.opponent-logo {
+  height: 80px;
+}
+.match-card-list {
+  list-style-type: none;
+  margin: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #1e293b;
+  color: #ffffff;
+  font-family: Bree Serif;
+  width: 30vh;
+  height: 50vh;
+  padding: 16px;
+  border-radius: 12px;
+}
+.won {
+  color: #18ed66;
+}
+.lose {
+  color: #e31a1a;
+}
